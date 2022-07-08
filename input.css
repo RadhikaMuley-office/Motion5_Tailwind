@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #232323 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navMenu{
+    width: 25px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 100%;
+    position: absolute;
+    left: 10%;
+}
+
+.navMenu:hover{
+    background-color: rgba(0, 0, 255, 0.521);
+}
+
+.relative:hover{
+    transition:3s ease all;
+}
+
+
+.sliderBlock{
+    width: 100%;
+    height: 75vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("./images/mbr-1920x1277.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
